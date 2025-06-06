@@ -4,7 +4,6 @@ from typing import List, Optional, Dict, Any, Union
 from pydantic.fields import Field
 from Globals import getenv
 
-
 # Auth Models
 class UserResponse(BaseModel):
     id: str
